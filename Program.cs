@@ -22,12 +22,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// app.UseHttpsRedirection();
-
-app.MapGet("/", () =>
-{
-    return "Welcome to Employee Management API";
-});
 
 app.MapControllers();
 
